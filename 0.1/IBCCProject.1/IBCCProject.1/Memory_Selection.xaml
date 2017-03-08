@@ -1,0 +1,104 @@
+﻿<Window x:Class="IBCCProject._1.Memory_Selection"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Memory Selection" Height="700" Width="1150"
+        ResizeMode="NoResize" Loaded="OnLoad">
+
+    <Window.Resources>
+        <Style TargetType="{x:Type Button}" x:Key="ImageButtonStyle">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <ContentPresenter/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+
+        <Grid.Background>
+            <VisualBrush>
+                <VisualBrush.Visual>
+                    <Image Source="/IBCCProject.1;component/Images/backgroundStaticImage.PNG"></Image>
+                </VisualBrush.Visual>
+            </VisualBrush>
+        </Grid.Background>
+
+        <Label Content="Return to menu" HorizontalContentAlignment="Center" FontFamily="Century" FontSize="20" Height="34" HorizontalAlignment="Left" Margin="27,77,0,0" Name="label1" VerticalAlignment="Top" Width="170" />
+        <Button Name="menuButton" VerticalAlignment="Top" HorizontalAlignment="Left" Background="#FF949392" Margin="44,19,0,0" Height="63" Width="138" Click="menuButton_Click">
+            <Image Source="/IBCCProject.1;component/Images/homeIcon.png" Width="70" Height="46"/>
+        </Button>
+
+        <Label Content="MEMORY MENU" Height="71" FontSize="48" FontFamily="Century"
+               HorizontalAlignment="Center" Margin="365,28,345,0" Name="contact_title" VerticalAlignment="Top" Width="418" Foreground="#FF9C4A0E" FontWeight="SemiBold" />
+        <ListView Name="pagination" Margin="103,158,106,151" ItemsSource="{Binding}" Background="#FFB7A87D">
+            <ListView.ItemContainerStyle>
+                <Style TargetType="ListViewItem">
+                    <Setter Property="Height" Value="100" />
+                    <Setter Property="FontFamily" Value="Century"/>
+                    <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                    <Setter Property="FontWeight" Value="Medium"/>
+                </Style>
+            </ListView.ItemContainerStyle>
+            <ListView.View>
+                <GridView>
+                    <GridView.ColumnHeaderContainerStyle>
+                        <Style TargetType="{x:Type GridViewColumnHeader}">
+                            <!-- Set any properties you want to set -->
+                            <Setter Property="Background" Value="#FF9C4A0E" />
+                            <Setter Property="BorderBrush" Value="#FF9C4A0E" />
+                            <Setter Property="Foreground" Value="Black" />
+                            <Setter Property="FontWeight" Value="Bold" />
+                            <Setter Property="FontFamily" Value="Century" />
+                            <Setter Property="FontSize" Value="16"/>
+                        </Style>
+                    </GridView.ColumnHeaderContainerStyle>
+                    <GridViewColumn Header="Memory Title" Width="620" DisplayMemberBinding="{Binding Path=memory_title}"></GridViewColumn>
+                    <GridViewColumn Header=" " Width="307">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button Content="READ" Click="readMemory_Click" CommandParameter="{Binding Path=memory_id}" Width="150" Height="80" Background="#FF949392" FontFamily="Century"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Label Height="23.277" HorizontalAlignment="Left" Margin="552,0,0,64"
+    Name="lblPageNumber" VerticalAlignment="Bottom" Width="26.63" Content="1"/>
+        <Label Content="If you see offensive or irrelevant entries, please select Read and then use the Flag button the next screen." Height="35" HorizontalAlignment="Left" Margin="219,117,0,0" Name="label2" VerticalAlignment="Top" Width="697" FontFamily="Century" HorizontalContentAlignment="Center" FontSize="14" Foreground="#FF9C4A0E" />
+
+        <Canvas x:Name="canvas_menu" Width="135" Height="70" Margin="194,550,0,41" HorizontalAlignment="Left">
+            <Button Margin="60,120,200,30" Canvas.Left="-60" Canvas.Top="-120" Height="70" Width="135"  Style="{StaticResource ImageButtonStyle}" Name="btnFirst" Click="btnFirst_Click">
+                <Image x:Name="first" Canvas.Left="-60" Canvas.Top="-120" Stretch="Fill" Height="70" Width="135" Panel.ZIndex="10" Source="/IBCCProject.1;component/Images/firstArrow.png"></Image>
+            </Button>
+        </Canvas>
+
+        <Canvas x:Name="canvas_menu_1" Width="135" Height="70" Margin="364,551,0,40" HorizontalAlignment="Left">
+            <Button Margin="60,120,200,30" Canvas.Left="-60" Canvas.Top="-120" Height="70" Width="135"  Style="{StaticResource ImageButtonStyle}" Name="btnPrev" Click="btnPrev_Click">
+                <Image x:Name="previous" Canvas.Left="-60" Canvas.Top="-120" Stretch="Fill" Height="70" Width="135" Panel.ZIndex="10" Source="/IBCCProject.1;component/Images/previousArrow.png"></Image>
+            </Button>
+        </Canvas>
+
+        <Canvas x:Name="canvas_menu_2" Width="135" Height="70" Margin="606,551,0,40" HorizontalAlignment="Left">
+            <Button Margin="60,120,200,30" Canvas.Left="-60" Canvas.Top="-120" Height="70" Width="135"  Style="{StaticResource ImageButtonStyle}" Name="btnNext" Click="btnNext_Click">
+                <Image x:Name="next" Canvas.Left="-60" Canvas.Top="-120" Stretch="Fill" Height="70" Width="135" Panel.ZIndex="10" Source="/IBCCProject.1;component/Images/nextArrow.png"></Image>
+            </Button>
+        </Canvas>
+
+        <Canvas x:Name="canvas_menu_3" Width="135" Height="70" Margin="0,551,207,40" HorizontalAlignment="Right">
+            <Button Margin="60,120,200,30" Canvas.Left="-60" Canvas.Top="-120" Height="70" Width="135"  Style="{StaticResource ImageButtonStyle}" Name="btnLast" Click="btnLast_Click">
+                <Image x:Name="last" Canvas.Left="-60" Canvas.Top="-120" Stretch="Fill" Height="70" Width="135" Panel.ZIndex="10" Source="/IBCCProject.1;component/Images/lastArrow.png"></Image>
+            </Button>
+        </Canvas>
+
+        <Label Content="First" Height="28" HorizontalAlignment="Left" Margin="246,618,0,0" Name="firstLabel" VerticalAlignment="Top" />
+        <Label Content="Previous" Height="28" HorizontalAlignment="Left" Margin="410,618,0,0" Name="prevLabel" VerticalAlignment="Top" />
+        <Label Content="Next" Height="28" HorizontalAlignment="Left" Margin="648,618,0,0" Name="nextLabel" VerticalAlignment="Top" />
+        <Label Content="Last" Height="28" HorizontalAlignment="Left" Margin="828,622,0,0" Name="lastLabel" VerticalAlignment="Top" />
+
+
+    </Grid>
+</Window>
