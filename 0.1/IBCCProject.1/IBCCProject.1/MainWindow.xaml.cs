@@ -32,7 +32,7 @@ namespace IBCCProject._1
            
 
             channel1.LoadedBehavior = MediaState.Manual;
-            channel1.Source = new Uri(@"C:\Users\Katkin\Desktop\featureCode\ibccFeatureBranch\0.1\IBCCProject.1\IBCCProject.1\Images\RAF_Night_Raid.wmv");
+            channel1.Source = new Uri(@"C:\Users\asus\Desktop\ibccCurrentFeatureCode\ibccCurrentFeatureCode\0.1\IBCCProject.1\IBCCProject.1\Images\RAF_Night_Raid.wmv");
             //@ means that the string behind is a path so / won't be 
             //treated like a special character
             channel1.Position = TimeSpan.FromSeconds(0);
@@ -47,14 +47,14 @@ namespace IBCCProject._1
             //secondChannel.Play();
 
             thirdChannel.LoadedBehavior = MediaState.Manual;
-            thirdChannel.Source = new Uri(@"C:\Users\Katkin\Desktop\featureCode\ibccFeatureBranch\0.1\IBCCProject.1\IBCCProject.1\Images\War_Pictorial_News.wmv");
+            thirdChannel.Source = new Uri(@"C:\Users\asus\Desktop\ibccCurrentFeatureCode\ibccCurrentFeatureCode\0.1\IBCCProject.1\IBCCProject.1\Images\War_Pictorial_News.wmv");
             //@ means that the string behind is a path so / won't be 
             //treated like a special character
             thirdChannel.Position = TimeSpan.FromSeconds(0);
             thirdChannel.Play();
 
             //C:\Users\Katkin\Desktop\featureCode\ibccFeatureBranch\0.1\IBCCProject.1\IBCCProject.1\Images\
-            BackgroundVideo.Source = new Uri(@"C:\Users\Katkin\Desktop\featureCode\ibccFeatureBranch\0.1\IBCCProject.1\IBCCProject.1\Images\filmEffect.wmv");
+            BackgroundVideo.Source = new Uri(@"C:\Users\asus\Desktop\ibccCurrentFeatureCode\ibccCurrentFeatureCode\0.1\IBCCProject.1\IBCCProject.1\Images\filmEffect.wmv");
             //@ means that the string behind is a path so / won't be 
             //treated like a special character
             BackgroundVideo.Position = TimeSpan.FromSeconds(0);
