@@ -414,7 +414,7 @@ namespace IBCCProject._1
                     //set images
                     placeholderImage1.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/borderDefense.jpg", UriKind.RelativeOrAbsolute));
                     placeholderImage2.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/newspaperReading.jpg", UriKind.RelativeOrAbsolute));
-                    placeholderImage3.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/wallGravesBW.jpg", UriKind.RelativeOrAbsolute));
+                    placeholderImage3.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/wallGraves.jpg", UriKind.RelativeOrAbsolute));
 
                     break;
 
@@ -426,9 +426,9 @@ namespace IBCCProject._1
                     summaryText.Content = "Mounting pressures and slow bleeding to the population ~ Fall of the Berlin Wall ~ Beginning of the reunification of Germany";
 
                     //set images
-                    placeholderImage1.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/kgbLogo.png", UriKind.RelativeOrAbsolute));
-                    placeholderImage2.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/fallOfBerlinWallBW.jpg", UriKind.RelativeOrAbsolute));
-                    placeholderImage3.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/chippingBerlinWallBW.jpg", UriKind.RelativeOrAbsolute));
+                    placeholderImage1.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/kgbUniform.png", UriKind.RelativeOrAbsolute));
+                    placeholderImage2.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/fallOfBerlinWall.JPG", UriKind.RelativeOrAbsolute));
+                    placeholderImage3.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/chippingBerlinWall.jpg", UriKind.RelativeOrAbsolute));
 
                     break;
                 default:
@@ -464,7 +464,7 @@ namespace IBCCProject._1
                     summaryText.Content = "Reparations and election of the new leading party ~ Reduction of Allied presence ~ Beginning of tensions between East and West";
 
                     //set images
-                    placeholderImage1.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/flagOfGermanyBW.png", UriKind.RelativeOrAbsolute));
+                    placeholderImage1.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/flagOfGermany.png", UriKind.RelativeOrAbsolute));
                     placeholderImage2.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/jerusalemTrain.jpg", UriKind.RelativeOrAbsolute));
                     placeholderImage3.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/alliedOccupation.jpg", UriKind.RelativeOrAbsolute));
 
@@ -507,8 +507,8 @@ namespace IBCCProject._1
 
                     //set images
                     placeholderImage1.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/josefMengele.jpg", UriKind.RelativeOrAbsolute));
-                    placeholderImage2.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/fallOfBerlinWallBW.jpg", UriKind.RelativeOrAbsolute));
-                    placeholderImage3.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/chippingBerlinWallBW.jpg", UriKind.RelativeOrAbsolute));
+                    placeholderImage2.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/fallOfBerlinWall.jpg", UriKind.RelativeOrAbsolute));
+                    placeholderImage3.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/chippingBerlinWall.jpg", UriKind.RelativeOrAbsolute));
 
                     break;
                 default:
@@ -570,7 +570,7 @@ namespace IBCCProject._1
                     summaryText.Content = "Bombings by the IRA ~ Crackdowns on protests";
 
                     //set images
-                    placeholderImage1.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/derry1900sBW.png", UriKind.RelativeOrAbsolute));
+                    placeholderImage1.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/derry1900s.png", UriKind.RelativeOrAbsolute));
                     placeholderImage2.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/miners.jpg", UriKind.RelativeOrAbsolute));
                     placeholderImage3.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/irishRepublicanArmy.PNG", UriKind.RelativeOrAbsolute));
 
@@ -584,9 +584,9 @@ namespace IBCCProject._1
                     summaryText.Content = "Conflict between unions and Thatcher's government ~ Falkland Islands war";
 
                     //set images
-                    placeholderImage1.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/panAmMemorialBW.jpg", UriKind.RelativeOrAbsolute));
-                    placeholderImage2.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/hongKong2BW.jpg", UriKind.RelativeOrAbsolute));
-                    placeholderImage3.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/thatcherBW.jpg", UriKind.RelativeOrAbsolute));
+                    placeholderImage1.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/panAmMemorial.jpg", UriKind.RelativeOrAbsolute));
+                    placeholderImage2.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/hongKong2.jpg", UriKind.RelativeOrAbsolute));
+                    placeholderImage3.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/thatcher.jpg", UriKind.RelativeOrAbsolute));
 
                     break;
                 default:
