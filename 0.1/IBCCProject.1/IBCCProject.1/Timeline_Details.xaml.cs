@@ -92,7 +92,7 @@ namespace IBCCProject._1
                     summaryText.Content = "";
                     
                     //set image files to relevant pictures [reload push]
-                    placeholderImage1.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/lancasterBomber.jpg", UriKind.RelativeOrAbsolute));
+                    placeholderImage1.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/lancastersInFlight.jpg", UriKind.RelativeOrAbsolute));
                     placeholderImage2.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/x-1.jpg", UriKind.RelativeOrAbsolute));
                     placeholderImage3.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/deHavillandComet.jpg", UriKind.RelativeOrAbsolute));
 
@@ -106,9 +106,9 @@ namespace IBCCProject._1
                     summaryText.Content = "";
 
                     //set image files to relevant pictures [reload push]
-                    placeholderImage1.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/MiG21.jpg", UriKind.RelativeOrAbsolute));
-                    placeholderImage2.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/U-2.jpg", UriKind.RelativeOrAbsolute));
-                    placeholderImage3.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/b52.jpg", UriKind.RelativeOrAbsolute));
+                    placeholderImage1.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/mig21.jpg", UriKind.RelativeOrAbsolute));
+                    placeholderImage2.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/u2Bomber.jpg", UriKind.RelativeOrAbsolute));
+                    placeholderImage3.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/boeingB52.jpg", UriKind.RelativeOrAbsolute));
 
                     break;
 
@@ -121,7 +121,7 @@ namespace IBCCProject._1
                     
                     //set image files to relevant pictures [reload push]
                     placeholderImage1.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/boeingMonomail.jpg", UriKind.RelativeOrAbsolute));
-                    placeholderImage2.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/mcdonnellDouglasPhantom.jpg", UriKind.RelativeOrAbsolute));
+                    placeholderImage2.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/douglasPhantom.jpg", UriKind.RelativeOrAbsolute));
                     placeholderImage3.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/douglasSkyhawk.jpeg", UriKind.RelativeOrAbsolute));
                     
                     break;
@@ -136,7 +136,7 @@ namespace IBCCProject._1
                     //set image files to relevant pictures [reload push]
                     placeholderImage1.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/lockeedSR71.jpg", UriKind.RelativeOrAbsolute));
                     placeholderImage2.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/concorde.jpg", UriKind.RelativeOrAbsolute));
-                    placeholderImage3.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/supersonicPlane1.jpg", UriKind.RelativeOrAbsolute));
+                    placeholderImage3.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/supersonic.jpg", UriKind.RelativeOrAbsolute));
                     
                     break;
 
@@ -148,8 +148,8 @@ namespace IBCCProject._1
                     summaryText.Content = "";
 
                     placeholderImage1.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/supersonicPlane2.jpg", UriKind.RelativeOrAbsolute));
-                    placeholderImage2.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/voyagerAircraft1.jpg", UriKind.RelativeOrAbsolute));
-                    placeholderImage3.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/vulcanBomber.JPEG", UriKind.RelativeOrAbsolute));
+                    placeholderImage2.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/voyager.jpg", UriKind.RelativeOrAbsolute));
+                    placeholderImage3.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/vulcan.JPEG", UriKind.RelativeOrAbsolute));
 
                     break;
 

@@ -228,6 +228,7 @@
     <Resource Include="Images\HelpMenu.PNG" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Images\MiG21.jpg" />
     <Resource Include="Images\TimelineMenu.PNG" />
   </ItemGroup>
   <ItemGroup>
@@ -367,9 +368,6 @@
     <Resource Include="Images\nurembergTrials.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\flagOfGermanyBW.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Images\jerusalemTrain.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -377,9 +375,6 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\berlinCityPalace.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\flagEastGermanyBW.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\berlinTankFaceoff.jpg" />
@@ -637,19 +632,7 @@
     <Resource Include="Images\deHavillandComet.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\MiG21.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\U-2.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\b52.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Images\boeingMonomail.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\mcdonnellDouglasPhantom.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\douglasSkyhawk.jpeg" />
@@ -658,16 +641,7 @@
     <Resource Include="Images\lockeedSR71.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\supersonicPlane1.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Images\supersonicPlane2.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\voyagerAircraft1.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\vulcanBomber.JPEG" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\feedbackPoster.jpg" />
@@ -683,24 +657,38 @@
     <Content Include="Images\airForce3.mp4">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Resource Include="Images\chinaFlagBW.png" />
+    <Resource Include="Images\Contact.jpg" />
+    <Resource Include="Images\feedback.jpg" />
+    <Resource Include="Images\chinaFlag.PNG" />
+    <Resource Include="Images\boeingB52.jpg" />
+    <Resource Include="Images\douglasPhantom.jpg" />
     <Content Include="Images\filmEffect.wmv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Resource Include="Images\frenchFlagBW.png" />
-    <Resource Include="Images\flagOfGermanyBW1.png" />
-    <Resource Include="Images\japanFlagBW.png" />
     <Resource Include="Images\firstArrow.png" />
     <Resource Include="Images\previousArrow.png" />
     <Resource Include="Images\nextArrow.png" />
     <Resource Include="Images\lastArrow.png" />
     <Resource Include="Images\homeIcon.png" />
+    <Resource Include="Images\Memories.jpg" />
+    <Resource Include="Images\help.PNG" />
+    <Resource Include="Images\lancastersInFlight.jpg" />
+    <Resource Include="Images\flagEastGermany.png" />
+    <Resource Include="Images\flagOfGermany.png" />
+    <Resource Include="Images\frenchFlag.png" />
+    <Resource Include="Images\japanFlag.png" />
     <Content Include="Images\RAF_Night_Raid.wmv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Resource Include="Images\usaFlagBW.png" />
-    <Resource Include="Images\unionJackBW.png" />
-    <Resource Include="Images\russianFlagBW.png" />
+    <Resource Include="Images\Record.PNG" />
+    <Resource Include="Images\Timeline.PNG" />
+    <Resource Include="Images\russianFlag.png" />
+    <Resource Include="Images\unionJack.PNG" />
+    <Resource Include="Images\usaFlag.png" />
+    <Resource Include="Images\u2Bomber.jpg" />
+    <Resource Include="Images\supersonic.jpg" />
+    <Resource Include="Images\voyager.jpg" />
+    <Resource Include="Images\vulcan.JPEG" />
     <Content Include="Images\War_Pictorial_News.wmv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

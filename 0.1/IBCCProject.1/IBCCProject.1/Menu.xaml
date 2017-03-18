@@ -37,42 +37,42 @@
         <Border x:Name="border_menu_1" BorderBrush="#9c4a0e" BorderThickness="5" CornerRadius="50" Margin="44,207,824,311" Background="Black">
             <Canvas x:Name="canvas_menu_1" Width="150" Height="100">
                 <Button Margin="60,120,200,30" Canvas.Left="-60" Canvas.Top="-120" Height="100" Width="150"  Style="{StaticResource ImageButtonStyle}" Click="MemoryButton_Click">
-                    <Image x:Name="firstOption" Canvas.Left="-60" Canvas.Top="-120" Stretch="Fill" Height="100" Width="150" Panel.ZIndex="10" Source="/IBCCProject.1;component/Images/MemoriesMenu.jpg"/>
+                    <Image x:Name="firstOption" Canvas.Left="-60" Canvas.Top="-120" Stretch="Fill" Height="100" Width="150" Panel.ZIndex="10" Source="/IBCCProject.1;component/Images/Memories.jpg"/>
                 </Button>
             </Canvas>
         </Border>
         <Border x:Name="border_menu_2" BorderBrush="#9c4a0e" BorderThickness="5" CornerRadius="50" Margin="404,207,434,311" Background="Black">
             <Canvas x:Name="canvas_menu_2" Width="150" Height="100">
                 <Button Margin="60,120,200,30" Canvas.Left="-60" Canvas.Top="-120" Height="100" Width="150"  Style="{StaticResource ImageButtonStyle}" Click="ContactButton_Click">
-                    <Image x:Name="secondOption" Canvas.Left="-60" Canvas.Top="-120" Stretch="Fill" Height="100" Width="150" Panel.ZIndex="10" Source="/IBCCProject.1;component/Images/ContactMenu.PNG"></Image>
+                    <Image x:Name="secondOption" Canvas.Left="-60" Canvas.Top="-120" Stretch="Fill" Height="100" Width="150" Panel.ZIndex="10" Source="/IBCCProject.1;component/Images/Contact.jpg"></Image>
                 </Button>
             </Canvas>
         </Border>
         <Border x:Name="border_menu_3" BorderBrush="#9c4a0e" BorderThickness="5" CornerRadius="50" Margin="796,207,41,311" Background="Black">
             <Canvas x:Name="canvas_menu_3" Width="150" Height="100">
                 <Button Margin="60,120,200,30" Canvas.Left="-60" Canvas.Top="-120" Height="100" Width="150"  Style="{StaticResource ImageButtonStyle}" Click="RecordButton_Click">
-                    <Image x:Name="thirdOption" Canvas.Left="-60" Canvas.Top="-120" Stretch="Fill" Height="100" Width="150" Panel.ZIndex="10" Source="/IBCCProject.1;component/Images/ContributeMenu1.PNG"></Image>
+                    <Image x:Name="thirdOption" Canvas.Left="-60" Canvas.Top="-120" Stretch="Fill" Height="100" Width="150" Panel.ZIndex="10" Source="/IBCCProject.1;component/Images/Record.PNG"></Image>
                 </Button>
             </Canvas>
         </Border>
         <Border x:Name="border_menu_4" BorderBrush="#9c4a0e" BorderThickness="5" CornerRadius="50" Margin="59,446,824,79" Background="Black">
             <Canvas x:Name="canvas_menu_4" Width="150" Height="100">
                 <Button Margin="60,120,200,30" Canvas.Left="-60" Canvas.Top="-120" Height="100" Width="150"  Style="{StaticResource ImageButtonStyle}" Name="timelineButton" Click="timelineButton_Click">
-                    <Image x:Name="fourthOption" Canvas.Left="-60" Canvas.Top="-120" Stretch="Fill" Height="100" Width="150" Panel.ZIndex="10" Source="/IBCCProject.1;component/Images/TimelineMenu.PNG"></Image>
+                    <Image x:Name="fourthOption" Canvas.Left="-60" Canvas.Top="-120" Stretch="Fill" Height="100" Width="150" Panel.ZIndex="10" Source="/IBCCProject.1;component/Images/Timeline.PNG"></Image>
                 </Button>
             </Canvas>
         </Border>
         <Border x:Name="border_menu_5" BorderBrush="#9c4a0e" BorderThickness="5" CornerRadius="50" Margin="787,446,41,79" Background="Black">
             <Canvas x:Name="canvas_menu_5" Width="150" Height="100">
                 <Button Margin="60,120,200,30" Canvas.Left="-60" Canvas.Top="-120" Height="100" Width="150"  Style="{StaticResource ImageButtonStyle}" Click="HelpButton_Click">
-                    <Image x:Name="fiveOption" Canvas.Left="-60" Canvas.Top="-120" Stretch="Fill" Height="100" Width="150" Panel.ZIndex="10" Source="/IBCCProject.1;component/Images/HelpMenu.PNG"></Image>
+                    <Image x:Name="fiveOption" Canvas.Left="-60" Canvas.Top="-120" Stretch="Fill" Height="100" Width="150" Panel.ZIndex="10" Source="/IBCCProject.1;component/Images/help.PNG"></Image>
                 </Button>
             </Canvas>
         </Border>
         <Border x:Name="border_menu_6" BorderBrush="#9c4a0e" BorderThickness="5" CornerRadius="50" Margin="404,446,434,79" Background="Black">
             <Canvas x:Name="canvas_menu_6" Width="150" Height="100">
                 <Button Margin="60,120,200,30" Canvas.Left="-60" Canvas.Top="-120" Height="100" Width="150"  Style="{StaticResource ImageButtonStyle}" Name="feedbackButton" Click="feedbackButton_Click">
-                    <Image x:Name="sixthOption" Canvas.Left="-60" Canvas.Top="-120" Stretch="Fill" Height="100" Width="150" Panel.ZIndex="10" Source="/IBCCProject.1;component/Images/feedbackPoster.jpg"></Image>
+                    <Image x:Name="sixthOption" Canvas.Left="-60" Canvas.Top="-120" Stretch="Fill" Height="100" Width="150" Panel.ZIndex="10" Source="/IBCCProject.1;component/Images/feedback.jpg"></Image>
                 </Button>
             </Canvas>
         </Border>
