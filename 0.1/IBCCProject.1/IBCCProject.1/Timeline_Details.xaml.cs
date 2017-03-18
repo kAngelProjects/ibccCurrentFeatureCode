@@ -228,8 +228,8 @@ namespace IBCCProject._1
                     summaryText.Content = "Further conflicts and fence mending with other nations ~ Political reform";
 
                     //set images
-                    placeholderImage1.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/longMarchSatelliteBW.jpg", UriKind.RelativeOrAbsolute));
-                    placeholderImage2.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/terracottaArmyBW.jpg", UriKind.RelativeOrAbsolute));
+                    placeholderImage1.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/longMarchSatellite.jpg", UriKind.RelativeOrAbsolute));
+                    placeholderImage2.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/terracottaArmy.JPG", UriKind.RelativeOrAbsolute));
                     placeholderImage3.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/dengXiaoping.jpg", UriKind.RelativeOrAbsolute));
 
                     break;
@@ -247,9 +247,9 @@ namespace IBCCProject._1
                     summaryText.Content = "Improvement of living conditions ~ Improved communications, harder crackdowns";
 
                     //set images
-                    placeholderImage1.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/tianamenSquare1BW.jpg", UriKind.RelativeOrAbsolute));
-                    placeholderImage2.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/tianamenSquare2BW.jpg", UriKind.RelativeOrAbsolute));
-                    placeholderImage3.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/tiananmenSquare3BW.jpg", UriKind.RelativeOrAbsolute));
+                    placeholderImage1.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/tianamenSquare1.jpg", UriKind.RelativeOrAbsolute));
+                    placeholderImage2.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/tianamenSquare2.jpg", UriKind.RelativeOrAbsolute));
+                    placeholderImage3.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/tiananmenSquare3.jpg", UriKind.RelativeOrAbsolute));
 
                     break;
                 default:
@@ -326,9 +326,9 @@ namespace IBCCProject._1
                     summaryText.Content = "Solidification of Japanese independence ~ Peace between neighbours";
 
                     //set images
-                    placeholderImage1.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/ohsumi1BW.jpg", UriKind.RelativeOrAbsolute));
-                    placeholderImage2.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/typhoonTipBW.jpg", UriKind.RelativeOrAbsolute));
-                    placeholderImage3.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/japaneseRedArmyBW.png", UriKind.RelativeOrAbsolute));
+                    placeholderImage1.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/ohsumi1.jpg", UriKind.RelativeOrAbsolute));
+                    placeholderImage2.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/typhoonTip.jpg", UriKind.RelativeOrAbsolute));
+                    placeholderImage3.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/japaneseRedArmy.png", UriKind.RelativeOrAbsolute));
 
                     break;
 
@@ -345,9 +345,9 @@ namespace IBCCProject._1
                     summaryText.Content = "Technological advancement ~ Beginning of the reign of a new emperor";
 
                     //set images
-                    placeholderImage1.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/studioGhibli.jpg", UriKind.RelativeOrAbsolute));
-                    placeholderImage2.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/tsunamiDamageBW.jpg", UriKind.RelativeOrAbsolute));
-                    placeholderImage3.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/NESBW.jpg", UriKind.RelativeOrAbsolute));
+                    placeholderImage1.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/studioGhiblia.jpg", UriKind.RelativeOrAbsolute));
+                    placeholderImage2.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/tsunamiDamage.jpg", UriKind.RelativeOrAbsolute));
+                    placeholderImage3.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/NES.jpg", UriKind.RelativeOrAbsolute));
 
                     break;
                 default:

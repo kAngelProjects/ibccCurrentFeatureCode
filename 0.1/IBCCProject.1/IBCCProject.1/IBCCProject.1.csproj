@@ -293,25 +293,10 @@
     <Resource Include="Images\hongKong.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\longMarchSatelliteBW.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\terracottaArmyBW.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Images\dengXiaoping.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\dengXiaoping.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\tianamenSquare1BW.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\tianamenSquare2BW.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\tiananmenSquare3BW.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\enolaGay.jpg" />
@@ -677,6 +662,7 @@
     <Resource Include="Images\flagOfGermany.png" />
     <Resource Include="Images\frenchFlag.png" />
     <Resource Include="Images\japanFlag.png" />
+    <Resource Include="Images\longMarchSatellite.jpg" />
     <Content Include="Images\RAF_Night_Raid.wmv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -689,6 +675,10 @@
     <Resource Include="Images\supersonic.jpg" />
     <Resource Include="Images\voyager.jpg" />
     <Resource Include="Images\vulcan.JPEG" />
+    <Resource Include="Images\terracottaArmy.JPG" />
+    <Resource Include="Images\tianamenSquare1.jpg" />
+    <Resource Include="Images\tianamenSquare2.jpg" />
+    <Resource Include="Images\tiananmenSquare3.jpg" />
     <Content Include="Images\War_Pictorial_News.wmv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
