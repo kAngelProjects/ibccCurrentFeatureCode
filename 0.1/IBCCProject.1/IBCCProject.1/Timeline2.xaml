@@ -36,55 +36,55 @@
 
         <Canvas x:Name="canvas_menu_10" Width="200" Height="100" Margin="196,118,0,443" HorizontalAlignment="Left">
             <Button Margin="60,120,200,30" Canvas.Left="-60" Canvas.Top="-120" Height="100" Width="200"  Style="{StaticResource ImageButtonStyle}" Click="aerialButton_Click">
-                <Image x:Name="aerialWarfare" Canvas.Left="-60" Canvas.Top="-120" Stretch="Fill" Height="100" Width="200" Panel.ZIndex="10" Source="/IBCCProject.1;component/Images/lancasterBomber.jpg"></Image>
+                <Image x:Name="aerialWarfare" Canvas.Left="-60" Canvas.Top="-120" Stretch="Fill" Height="100" Width="200" Panel.ZIndex="10" Source="/IBCCProject.1;component/Images/lancastersInFlight.jpg"></Image>
             </Button>
         </Canvas>
         
         <Canvas x:Name="canvas_menu_2" Width="200" Height="100" Margin="196,268,0,293" HorizontalAlignment="Left">
             <Button Margin="60,120,200,30" Canvas.Left="-60" Canvas.Top="-120" Height="100" Width="200"  Style="{StaticResource ImageButtonStyle}" Click="usaButton_Click">
-                <Image x:Name="secondOption" Canvas.Left="-60" Canvas.Top="-120" Stretch="Fill" Height="100" Width="200" Panel.ZIndex="10" Source="/IBCCProject.1;component/Images/usaFlagBW.png"></Image>
+                <Image x:Name="secondOption" Canvas.Left="-60" Canvas.Top="-120" Stretch="Fill" Height="100" Width="200" Panel.ZIndex="10" Source="/IBCCProject.1;component/Images/usaFlag.png"></Image>
             </Button>
         </Canvas>
 
         <Canvas x:Name="canvas_menu_3" Width="200" Height="100" Margin="196,408,0,153" HorizontalAlignment="Left">
             <Button Margin="60,120,200,30" Canvas.Left="-60" Canvas.Top="-120" Height="100" Width="200"  Style="{StaticResource ImageButtonStyle}" Click="franceButton_Click">
-                <Image x:Name="franceButton2" Canvas.Left="-60" Canvas.Top="-120" Stretch="Fill" Height="100" Width="200" Panel.ZIndex="10" Source="/IBCCProject.1;component/Images/frenchFlagBW.png"></Image>
+                <Image x:Name="franceButton2" Canvas.Left="-60" Canvas.Top="-120" Stretch="Fill" Height="100" Width="200" Panel.ZIndex="10" Source="/IBCCProject.1;component/Images/frenchFlag.png"></Image>
             </Button>
         </Canvas>
 
         <Canvas x:Name="canvas_menu_4" Width="200" Height="100" Margin="196,524,0,37" HorizontalAlignment="Left">
             <Button Margin="60,120,200,30" Canvas.Left="-60" Canvas.Top="-120" Height="100" Width="200"  Style="{StaticResource ImageButtonStyle}" Click="ukButton_Click">
-                <Image x:Name="ukButton2" Canvas.Left="-60" Canvas.Top="-120" Stretch="Fill" Height="100" Width="200" Panel.ZIndex="10" Source="/IBCCProject.1;component/Images/unionJackBW.png"></Image>
+                <Image x:Name="ukButton2" Canvas.Left="-60" Canvas.Top="-120" Stretch="Fill" Height="100" Width="200" Panel.ZIndex="10" Source="/IBCCProject.1;component/Images/unionJack.png"></Image>
             </Button>
         </Canvas>
 
         <Canvas x:Name="canvas_menu_5" Width="200" Height="100" Margin="886,268,0,293" HorizontalAlignment="Left">
             <Button Margin="60,120,200,30" Canvas.Left="-60" Canvas.Top="-120" Height="100" Width="200"  Style="{StaticResource ImageButtonStyle}" Click="westGermanyButton_Click">
-                <Image x:Name="westGermanyImg" Canvas.Left="-60" Canvas.Top="-120" Stretch="Fill" Height="100" Width="200" Panel.ZIndex="10" Source="/IBCCProject.1;component/Images/flagOfGermanyBW1.png"></Image>
+                <Image x:Name="westGermanyImg" Canvas.Left="-60" Canvas.Top="-120" Stretch="Fill" Height="100" Width="200" Panel.ZIndex="10" Source="/IBCCProject.1;component/Images/flagOfGermany.png"></Image>
             </Button>
         </Canvas>
 
         <Canvas x:Name="canvas_menu_6" Width="200" Height="100" Margin="886,408,0,153" HorizontalAlignment="Left">
             <Button Margin="60,120,200,30" Canvas.Left="-60" Canvas.Top="-120" Height="100" Width="200"  Style="{StaticResource ImageButtonStyle}" Click="eastGermanyButton_Click">
-                <Image x:Name="eastGermanyImg" Canvas.Left="-60" Canvas.Top="-120" Stretch="Fill" Height="100" Width="200" Panel.ZIndex="10" Source="/IBCCProject.1;component/Images/flagEastGermanyBW.png"></Image>
+                <Image x:Name="eastGermanyImg" Canvas.Left="-60" Canvas.Top="-120" Stretch="Fill" Height="100" Width="200" Panel.ZIndex="10" Source="/IBCCProject.1;component/Images/flagEastGermany.png"></Image>
             </Button>
         </Canvas>
 
         <Canvas x:Name="canvas_menu_7" Width="200" Height="100" Margin="886,524,0,37" HorizontalAlignment="Left">
             <Button Margin="60,120,200,30" Canvas.Left="-60" Canvas.Top="-120" Height="100" Width="200"  Style="{StaticResource ImageButtonStyle}" Click="japanButton_Click">
-                <Image x:Name="japanImg" Canvas.Left="-60" Canvas.Top="-120" Stretch="Fill" Height="100" Width="200" Panel.ZIndex="10" Source="/IBCCProject.1;component/Images/japanFlagBW.png"></Image>
+                <Image x:Name="japanImg" Canvas.Left="-60" Canvas.Top="-120" Stretch="Fill" Height="100" Width="200" Panel.ZIndex="10" Source="/IBCCProject.1;component/Images/japanFlag.png"></Image>
             </Button>
         </Canvas>
 
         <Canvas x:Name="canvas_menu_8" Width="200" Height="100" Margin="548,408,0,153" HorizontalAlignment="Left">
             <Button Margin="60,120,200,30" Canvas.Left="-60" Canvas.Top="-120" Height="100" Width="200"  Style="{StaticResource ImageButtonStyle}" Click="chinaButton_Click">
-                <Image x:Name="chinaImg" Canvas.Left="-60" Canvas.Top="-120" Stretch="Fill" Height="100" Width="200" Panel.ZIndex="10" Source="/IBCCProject.1;component/Images/chinaFlagBW.png"></Image>
+                <Image x:Name="chinaImg" Canvas.Left="-60" Canvas.Top="-120" Stretch="Fill" Height="100" Width="200" Panel.ZIndex="10" Source="/IBCCProject.1;component/Images/chinaFlag.png"></Image>
             </Button>
         </Canvas>
 
         <Canvas x:Name="canvas_menu_9" Width="200" Height="100" Margin="548,268,0,293" HorizontalAlignment="Left">
             <Button Margin="60,120,200,30" Canvas.Left="-60" Canvas.Top="-120" Height="100" Width="200"  Style="{StaticResource ImageButtonStyle}" Click="russiaButton_Click">
-                <Image x:Name="russiaImg" Canvas.Left="-60" Canvas.Top="-120" Stretch="Fill" Height="100" Width="200" Panel.ZIndex="10" Source="/IBCCProject.1;component/Images/russianFlagBW.png"></Image>
+                <Image x:Name="russiaImg" Canvas.Left="-60" Canvas.Top="-120" Stretch="Fill" Height="100" Width="200" Panel.ZIndex="10" Source="/IBCCProject.1;component/Images/russianFlag.png"></Image>
             </Button>
         </Canvas>
         <Label Content="Please select an option to read about its history." Height="36" Margin="208,76,167,0" Name="label2" VerticalAlignment="Top" Width="403" FontSize="18" HorizontalAlignment="Center" HorizontalContentAlignment="Center" Foreground="#FF9C4A0E" />

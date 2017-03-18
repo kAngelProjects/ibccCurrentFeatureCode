@@ -138,3 +138,4 @@ C:\Users\asus\Desktop\ibccCurrentFeatureCode\ibccCurrentFeatureCode\0.1\IBCCProj
 C:\Users\asus\Desktop\ibccCurrentFeatureCode\ibccCurrentFeatureCode\0.1\IBCCProject.1\IBCCProject.1\obj\x86\Debug\IBCCProject.1.g.resources
 C:\Users\asus\Desktop\ibccCurrentFeatureCode\ibccCurrentFeatureCode\0.1\IBCCProject.1\IBCCProject.1\obj\x86\Debug\IBCCProject._1.Properties.Resources.resources
 C:\Users\asus\Desktop\ibccCurrentFeatureCode\ibccCurrentFeatureCode\0.1\IBCCProject.1\IBCCProject.1\obj\x86\Debug\IBCCProject.1.csproj.GenerateResource.Cache
+C:\Users\asus\Desktop\ibccCurrentFeatureCode\ibccCurrentFeatureCode\0.1\IBCCProject.1\IBCCProject.1\obj\x86\Debug\IBCCProject.1.csprojResolveAssemblyReference.cache
