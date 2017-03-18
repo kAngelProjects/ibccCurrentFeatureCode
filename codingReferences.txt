@@ -180,6 +180,7 @@ https://commons.wikimedia.org/wiki/File:Chemical-warfare-demonstration-RG-208-AA
 https://commons.wikimedia.org/wiki/File:1988_CPA_5942.jpg
 https://commons.wikimedia.org/wiki/File:VOA_Markosian_-_Chernobyl02.jpg
 https://commons.wikimedia.org/wiki/File:Gorbachev_Bush_19900601.jpg
+
 https://simple.wikipedia.org/wiki/Smokey_Bear#/media/File:Smokey3.jpg
 https://en.wikipedia.org/wiki/File:Jackie_Robinson,_Brooklyn_Dodgers,_1954.jpg
 https://commons.wikimedia.org/wiki/File:Last_meeting_of_the_Potsdam_Conference_in_Potsdam,_Germany._Seated_around_the_conference_table,_President_Harry_S...._-_NARA_-_198951.jpg 
@@ -195,6 +196,7 @@ https://commons.wikimedia.org/wiki/File:Nixon_leaving_whitehouse.jpg
 https://en.wikipedia.org/wiki/Space_Shuttle_Challenger#/media/File:Space_Shuttle_Challenger_(04-04-1983).JPEG
 https://www.flickr.com/photos/michaeldjohns/2960235713
 https://commons.wikimedia.org/wiki/File:PanamaJustCause1991.jpg
+
 https://commons.wikimedia.org/wiki/File:Avro_Lancaster_Mk_1_ExCC.jpg
 https://commons.wikimedia.org/wiki/File:Bell_X-1_in_flight.jpg
 https://en.wikipedia.org/wiki/File:Comet_Prototype_at_Hatfield.jpg

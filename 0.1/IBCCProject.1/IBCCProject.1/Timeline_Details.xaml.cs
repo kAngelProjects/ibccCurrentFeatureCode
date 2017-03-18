@@ -649,7 +649,7 @@ namespace IBCCProject._1
                     summaryText.Content = "Social reform in France";
 
                     //set images
-                    placeholderImage1.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/djibouti.jpg", UriKind.RelativeOrAbsolute));
+                    placeholderImage1.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/djiboutiVille.jpg", UriKind.RelativeOrAbsolute));
                     placeholderImage2.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/guillotine.jpg", UriKind.RelativeOrAbsolute));
                     placeholderImage3.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/vietnamPeace2.JPG", UriKind.RelativeOrAbsolute));
 
@@ -663,9 +663,9 @@ namespace IBCCProject._1
                     summaryText.Content = "Further government reform ~ Alliance between Western powers";
 
                     //set images
-                    placeholderImage1.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/greenpeace.png", UriKind.RelativeOrAbsolute));
+                    placeholderImage1.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/greenpeaceLogo.png", UriKind.RelativeOrAbsolute));
                     placeholderImage2.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/lebanon.jpg", UriKind.RelativeOrAbsolute));
-                    placeholderImage3.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/titanicWreck.jpg", UriKind.RelativeOrAbsolute));
+                    placeholderImage3.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/titanicWreckBow.jpg", UriKind.RelativeOrAbsolute));
 
                     break;
                 default:
@@ -728,7 +728,7 @@ namespace IBCCProject._1
                     summaryText.Content = "Lessening tension with the United States";
 
                     //set images
-                    placeholderImage1.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/supersonicPlane.jpg", UriKind.RelativeOrAbsolute));
+                    placeholderImage1.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/supersonicPlaneColour.jpg", UriKind.RelativeOrAbsolute));
                     placeholderImage2.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/kgbCard.jpg", UriKind.RelativeOrAbsolute));
                     placeholderImage3.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/chemicalWarfare.jpg", UriKind.RelativeOrAbsolute));
 
@@ -742,9 +742,9 @@ namespace IBCCProject._1
                     summaryText.Content = "Move towards a democratic structure ~ End to the Cold War";
 
                     //set images
-                    placeholderImage1.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/sovietStamp.jpg", UriKind.RelativeOrAbsolute));
-                    placeholderImage2.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/chernobyl.jpg", UriKind.RelativeOrAbsolute));
-                    placeholderImage3.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/endOfColdWar.jpg", UriKind.RelativeOrAbsolute));
+                    placeholderImage1.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/sovietStampClr.jpg", UriKind.RelativeOrAbsolute));
+                    placeholderImage2.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/chernobylClr.jpg", UriKind.RelativeOrAbsolute));
+                    placeholderImage3.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/gorbachevBush.jpg", UriKind.RelativeOrAbsolute));
 
                     break;
                 default:
@@ -821,8 +821,8 @@ namespace IBCCProject._1
                     summaryText.Content = "Aggressive foreign policy ~ End to the Cold War";
 
                     //set images
-                    placeholderImage1.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/challenger.JPEG", UriKind.RelativeOrAbsolute));
-                    placeholderImage2.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/contras.PNG", UriKind.RelativeOrAbsolute));
+                    placeholderImage1.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/challengerClr.JPEG", UriKind.RelativeOrAbsolute));
+                    placeholderImage2.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/contrasClr.PNG", UriKind.RelativeOrAbsolute));
                     placeholderImage3.Source = new BitmapImage(new Uri(@"/IBCCProject.1;component/Images/usPanamaInvasion.jpg", UriKind.RelativeOrAbsolute));
 
                     break;

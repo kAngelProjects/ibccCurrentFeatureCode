@@ -219,17 +219,7 @@
     <Resource Include="Images\IBCCTransparent2.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\MemoriesMenu.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\ContactMenu.PNG" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\HelpMenu.PNG" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Images\MiG21.jpg" />
-    <Resource Include="Images\TimelineMenu.PNG" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\ContributeMenu.PNG" />
@@ -326,24 +316,6 @@
     <Resource Include="Images\kishi.JPG" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\ohsumi1BW.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\typhoonTipBW.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\japaneseRedArmyBW.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\studioGhibli.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\tsunamiDamageBW.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\NESBW.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Images\massGrave.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -407,18 +379,6 @@
     <Resource Include="Images\newspaperReading.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\wallGravesBW.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\chippingBerlinWallBW.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\kgbLogo.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\fallOfBerlinWallBW.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Images\josefMengele.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -449,22 +409,10 @@
     <Resource Include="Images\commonwealthFlagBW.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\derry1900sBW.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Images\miners.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\irishRepublicanArmy.PNG" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\panAmMemorialBW.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\hongKong2BW.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\thatcherBW.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\infoSymbol.png" />
@@ -497,22 +445,13 @@
     <Resource Include="Images\vietnamPeace.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\djibouti.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Images\guillotine.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\vietnamPeace2.JPG" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\greenpeace.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Images\lebanon.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\titanicWreck.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\berlinSovietCapture.jpg" />
@@ -542,22 +481,10 @@
     <Resource Include="Images\ballisticMissile.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\supersonicPlane.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Images\kgbCard.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\chemicalWarfare.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\sovietStamp.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\chernobyl.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\endOfColdWar.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\smokeyBear.jpg" />
@@ -596,12 +523,6 @@
     <Resource Include="Images\nixonLeavingWhitehouse.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\challenger.JPEG" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\contras.PNG" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Images\usPanamaInvasion.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -629,16 +550,12 @@
     <Resource Include="Images\supersonicPlane2.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\feedbackPoster.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\RAFPoster.jpg" />
     <Content Include="Images\airForce3.mp4">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -647,6 +564,13 @@
     <Resource Include="Images\chinaFlag.PNG" />
     <Resource Include="Images\boeingB52.jpg" />
     <Resource Include="Images\douglasPhantom.jpg" />
+    <Resource Include="Images\fallOfBerlinWall.JPG" />
+    <Resource Include="Images\chippingBerlinWall.jpg" />
+    <Resource Include="Images\derry1900s.PNG" />
+    <Resource Include="Images\djiboutiVille.jpg" />
+    <Resource Include="Images\chernobylClr.jpg" />
+    <Resource Include="Images\challengerClr.JPEG" />
+    <Resource Include="Images\contrasClr.PNG" />
     <Content Include="Images\filmEffect.wmv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -663,6 +587,15 @@
     <Resource Include="Images\frenchFlag.png" />
     <Resource Include="Images\japanFlag.png" />
     <Resource Include="Images\longMarchSatellite.jpg" />
+    <Resource Include="Images\ohsumi1.JPG" />
+    <Resource Include="Images\japaneseRedArmy.png" />
+    <Resource Include="Images\NES.jpg" />
+    <Resource Include="Images\kgbUniform.png" />
+    <Resource Include="Images\panAmMemorial.jpg" />
+    <Resource Include="Images\hongKong2.jpg" />
+    <Resource Include="Images\greenpeaceLogo.png" />
+    <Resource Include="Images\gorbachevBush.jpg" />
+    <Resource Include="Images\rafPosterColour.jpg" />
     <Content Include="Images\RAF_Night_Raid.wmv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -679,6 +612,14 @@
     <Resource Include="Images\tianamenSquare1.jpg" />
     <Resource Include="Images\tianamenSquare2.jpg" />
     <Resource Include="Images\tiananmenSquare3.jpg" />
+    <Resource Include="Images\typhoonTip.jpg" />
+    <Resource Include="Images\studioGhiblia.jpg" />
+    <Resource Include="Images\tsunamiDamage.jpg" />
+    <Resource Include="Images\wallGraves.jpg" />
+    <Resource Include="Images\thatcher.jpg" />
+    <Resource Include="Images\titanicWreckBow.jpg" />
+    <Resource Include="Images\supersonicPlaneColour.jpg" />
+    <Resource Include="Images\sovietStampClr.jpg" />
     <Content Include="Images\War_Pictorial_News.wmv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
