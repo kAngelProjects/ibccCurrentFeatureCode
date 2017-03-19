@@ -204,8 +204,8 @@ namespace IBCCProject._1
 
         private void menuButton_Click(object sender, RoutedEventArgs e)
         {
-            Menu menuWindow = new Menu();
-            menuWindow.Show();
+            Admin_Menu adminWindow = new Admin_Menu();
+            adminWindow.Show();
             this.Close();
         }
 

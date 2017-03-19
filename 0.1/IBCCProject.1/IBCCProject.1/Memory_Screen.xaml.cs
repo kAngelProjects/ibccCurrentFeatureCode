@@ -79,7 +79,7 @@ namespace IBCCProject._1
 
         private void menuButton_Click(object sender, RoutedEventArgs e)
         {
-            Menu menuWindow = new Menu();
+            Memory_Selection menuWindow = new Memory_Selection();
             menuWindow.Show();
             this.Close();
         }

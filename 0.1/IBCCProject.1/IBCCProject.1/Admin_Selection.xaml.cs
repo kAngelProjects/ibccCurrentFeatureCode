@@ -225,7 +225,7 @@ namespace IBCCProject._1
 
         private void menuButton_Click(object sender, RoutedEventArgs e)
         {
-            Menu menuWindow = new Menu();
+            Admin_Menu menuWindow = new Admin_Menu();
             menuWindow.Show();
             this.Close();
         }

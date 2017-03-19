@@ -35,8 +35,8 @@ namespace IBCCProject._1
 
         private void menuButton_Click(object sender, RoutedEventArgs e)
         {
-            Menu menuWindow = new Menu();
-            menuWindow.Show();
+            Timeline returnTimeline = new Timeline(globalCountryValue);
+            returnTimeline.Show();
             this.Close();
         }
 
@@ -831,15 +831,6 @@ namespace IBCCProject._1
             }
 
         }
-
-        private void yearSelection_Click(object sender, RoutedEventArgs e)
-        {
-            Timeline returnTimeline = new Timeline(globalCountryValue);
-            returnTimeline.Show();
-            this.Close();
-
-        }
-
 
     }
 }

@@ -13,9 +13,9 @@
             </VisualBrush>
         </Grid.Background>
 
-        <Label Content="Return to menu" HorizontalContentAlignment="Center" FontFamily="Century" FontSize="20" Height="34" HorizontalAlignment="Left" Margin="44,92,0,0" Name="label1" VerticalAlignment="Top" Width="170" Foreground="#FF9C4A0E" />
+        <Label Content="Back" HorizontalContentAlignment="Center" FontFamily="Century" FontSize="20" Height="34" HorizontalAlignment="Left" Margin="44,92,0,0" Name="label1" VerticalAlignment="Top" Width="170" Foreground="#FF9C4A0E" />
         <Button Name="menuButton" VerticalAlignment="Top" HorizontalAlignment="Left" Background="#FF949392" Margin="62,28,0,0" Height="63" Width="138" Click="menuButton_Click">
-            <Image Source="/IBCCProject.1;component/Images/homeIcon.png" Width="70" Height="46"/>
+            <Image Source="/IBCCProject.1;component/Images/arrow_left.png" Width="70" Height="46"/>
         </Button>
 
         <Label Content="TIMELINE" Height="71" FontSize="48" FontFamily="Century"
@@ -56,10 +56,5 @@
         </Button>
         <Label Content="Please choose a time period." Height="38" HorizontalAlignment="Left" Margin="398,114,0,0" Name="label2" VerticalAlignment="Top" FontSize="20" FontFamily="Century" Foreground="#FF9C4A0E" />
         <Label Content="Have wartime memorabilia? Visit the Contact Screen to see if you could contribute to the Digital Archive." Height="34" HorizontalAlignment="Left" Margin="136,603,0,0" Name="label3" VerticalAlignment="Top" Width="739" FontSize="15" FontFamily="Century" />
-        <Button Background="#FF949392" Height="63" HorizontalAlignment="Left" Margin="917,28,0,0" Name="countrySelection" VerticalAlignment="Top" Width="138" Click="countrySelection_Click">
-            <Image Height="46" Source="/IBCCProject.1;component/Images/arrow_left.png" Width="70" />
-        </Button>
-        <Label Content="Return to category" FontFamily="Century" FontSize="20" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Margin="894,92,0,534" Name="label4" Width="181" Foreground="#FF9C4A0E" />
-        <Label Content="selection" FontFamily="Century" FontSize="20" Height="34" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Margin="894,114,0,0" Name="label5" VerticalAlignment="Top" Width="181" Foreground="#FF9C4A0E" />
     </Grid>
 </Window>

@@ -29,8 +29,8 @@ namespace IBCCProject._1
 
         private void menuButton_Click(object sender, RoutedEventArgs e)
         {
-            Menu menuWindow = new Menu();
-            menuWindow.Show();
+            Timeline2 returnTimeline = new Timeline2();
+            returnTimeline.Show();
             this.Close();
         }
 
@@ -190,11 +190,5 @@ namespace IBCCProject._1
             this.Close();
         }
 
-        private void countrySelection_Click(object sender, RoutedEventArgs e)
-        {
-            Timeline2 returnTimeline = new Timeline2();
-            returnTimeline.Show();
-            this.Close();
-        }
     }
 }
