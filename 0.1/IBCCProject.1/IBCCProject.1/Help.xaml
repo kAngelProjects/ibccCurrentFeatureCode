@@ -1,7 +1,7 @@
 ﻿<Window x:Class="IBCCProject._1.Help"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Wartime Memories - Help" Height="700" Width="1150"
+        Title="Wartime Memories - Help" Height="700" Width="1150" WindowStartupLocation="CenterScreen"
         ResizeMode="NoResize">
     <Grid>
 
