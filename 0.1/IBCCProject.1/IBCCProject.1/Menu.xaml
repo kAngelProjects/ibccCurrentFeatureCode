@@ -103,12 +103,12 @@
             </Canvas>
         </Border>
 
-        <Label Content="MEMORIES" FontFamily="Interface Regular" FontSize="38" Height="59" HorizontalAlignment="Center" Margin="64,356,824,0" Name="label1" VerticalAlignment="Top" Width="256" Foreground="#FF9C4A0E" FontWeight="SemiBold" />
-        <Label Content="CONTACT" FontFamily="Interface Regular" FontSize="38" Height="59" HorizontalAlignment="Center" Margin="444,360,484,0" Name="option2Label" VerticalAlignment="Top" Width="216" Foreground="#FF9C4A0E" FontWeight="SemiBold" />
-        <Label Content="RECORD" FontFamily="Interface Regular" FontSize="38" Height="59" HorizontalAlignment="Center" Margin="854,356,90,0" Name="option3Label" VerticalAlignment="Top" Width="200" Foreground="#FF9C4A0E" FontWeight="SemiBold" />
-        <Label Content="TIMELINE" FontFamily="Interface Regular" FontSize="36" Height="59" HorizontalAlignment="Center" Margin="80,588,854,0" Name="label2" VerticalAlignment="Top" Width="210" Foreground="#FF9C4A0E" FontWeight="SemiBold" />
+        <Label Content="MEMORIES" FontFamily="Interface Regular" FontSize="38" Height="59" HorizontalAlignment="Center" Margin="100,360,788,0" Name="label1" VerticalAlignment="Top" Width="256" Foreground="#FF9C4A0E" FontWeight="SemiBold" />
+        <Label Content="CONTACT" FontFamily="Interface Regular" FontSize="38" Height="59" HorizontalAlignment="Center" Margin="461,365,467,0" Name="option2Label" VerticalAlignment="Top" Width="216" Foreground="#FF9C4A0E" FontWeight="SemiBold" />
+        <Label Content="RECORD" FontFamily="Interface Regular" FontSize="38" Height="59" HorizontalAlignment="Center" Margin="870,360,74,0" Name="option3Label" VerticalAlignment="Top" Width="200" Foreground="#FF9C4A0E" FontWeight="SemiBold" />
+        <Label Content="TIMELINE" FontFamily="Interface Regular" FontSize="36" Height="59" HorizontalAlignment="Center" Margin="100,588,834,0" Name="label2" VerticalAlignment="Top" Width="210" Foreground="#FF9C4A0E" FontWeight="SemiBold" />
         <Label Content="HELP" FontFamily="Interface Regular" FontSize="36" Height="59" HorizontalAlignment="Center" Margin="888,588,136,0" Name="label3" VerticalAlignment="Top" Width="120" Foreground="#FF9C4A0E" FontWeight="SemiBold" />
-        <Label Content="FEEDBACK" FontFamily="Interface Regular" FontSize="36" Height="59" HorizontalAlignment="Center" Margin="444,588,460,0" Name="label4" VerticalAlignment="Top" Width="240" Foreground="#FF9C4A0E" FontWeight="SemiBold" />
+        <Label Content="FEEDBACK" FontFamily="Interface Regular" FontSize="36" Height="59" HorizontalAlignment="Center" Margin="461,588,443,0" Name="label4" VerticalAlignment="Top" Width="240" Foreground="#FF9C4A0E" FontWeight="SemiBold" />
         <Label Content="Back" HorizontalContentAlignment="Center" FontFamily="Interface Regular" FontSize="20" Height="34" HorizontalAlignment="Left" Margin="27,77,0,0" Name="backLabel" VerticalAlignment="Top" Width="170" />
         <Button Name="menuButton" VerticalAlignment="Top" HorizontalAlignment="Left" Background="#FF949392" Margin="44,19,0,0" Height="63" Width="138" Click="menuButton_Click">
             <Image Source="/IBCCProject.1;component/Images/arrow_left.png" Width="70" Height="46"/>
