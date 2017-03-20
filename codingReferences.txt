@@ -39,6 +39,7 @@ http://stackoverflow.com/questions/3209580/whats-the-best-way-to-parse-a-string-
 http://stackoverflow.com/questions/1181419/verifying-that-a-string-contains-only-letters-in-c-sharp
 http://stackoverflow.com/questions/577298/program-does-not-contain-a-static-main-method-suitable-for-an-entry-point
 http://stackoverflow.com/questions/6004453/how-to-remove-multiple-deleted-files-in-git-repository
+http://stackoverflow.com/questions/5634384/how-can-i-specify-mediaelement-source-with-non-relative-uri
 https://git-lfs.github.com/
 
 NEW FOOTAGE
