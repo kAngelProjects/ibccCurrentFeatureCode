@@ -87,6 +87,20 @@ namespace IBCCProject._1
             thirdChannel.Play();
         }
 
+        private void adminButton_Click(object sender, RoutedEventArgs e)
+        {
+            Admin_Login adminLogin = new Admin_Login();
+            adminLogin.Show();
+            this.Close();
+        }
+
+        private void aboutButton_Click(object sender, RoutedEventArgs e)
+        {
+            About aboutScreen = new About();
+            aboutScreen.Show();
+            this.Close();
+        }
+
         
     }
 

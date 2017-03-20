@@ -90,6 +90,13 @@ namespace IBCCProject._1
             this.Close();
         }
 
+        private void menuButton_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow mainWindowOpen = new MainWindow();
+            mainWindowOpen.Show();
+            this.Close();
+        }
+
     }
 
 

@@ -3,19 +3,22 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Wartime Memories" Height="700" Width="1150"
         ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
-    
+
     <Grid>
         <Grid.Background>
             <VisualBrush>
                 <VisualBrush.Visual>
-                    <MediaElement Source="Images/filmEffect.wmv" Width="800" Height="700" Stretch="Fill" MediaEnded="MediaElement_MediaEnded" Name="BackgroundVideo" LoadedBehavior="Manual">   
+                    <MediaElement Source="Images/filmEffect.wmv" Width="800" Height="700" Stretch="Fill" MediaEnded="MediaElement_MediaEnded" Name="BackgroundVideo" LoadedBehavior="Manual">
                     </MediaElement>
                 </VisualBrush.Visual>
             </VisualBrush>
         </Grid.Background>
-        
-        <Button Content="START" Height="71" HorizontalAlignment="Left" Margin="289,575,0,0" Name="button1" VerticalAlignment="Top" Width="532" Click="openMenu_Click" FontSize="20" Background="#FF949392" FontWeight="SemiBold" />
+
+        <Button Content="START" Height="71" HorizontalAlignment="Left" Margin="311,575,0,0" Name="button1" VerticalAlignment="Top" Width="532" Click="openMenu_Click" FontSize="20" Background="#FF949392" FontWeight="SemiBold" />
         <Image Height="187" HorizontalAlignment="Left" Margin="411,12,0,0" Name="image1" Stretch="Fill" VerticalAlignment="Top" Width="328" Source="/IBCCProject.1;component/Images/IBCCTransparent2.png" Panel.ZIndex="10" />
+
+        <Button Content="Admin Login" Height="71" HorizontalAlignment="Left" Margin="88,575,0,0" Name="adminButton" VerticalAlignment="Top" Width="150" Click="adminButton_Click" Background="#FF949392" FontWeight="SemiBold" FontSize="20" />
+        <Button Content="About" Height="71" HorizontalAlignment="Left" Margin="907,575,0,0" Name="aboutButton" VerticalAlignment="Top" Width="128" Click="aboutButton_Click" FontSize="20" FontWeight="SemiBold" Background="#FF949392" />
 
         <!--rounded corner for TV 'channels'-->
         <Border x:Name="border1" BorderBrush="#9c4a0e" BorderThickness="5" CornerRadius="50" Margin="95,202,726,250" Background="Black" Width="300">
@@ -28,30 +31,32 @@
                 <MediaElement x:Name="thirdChannel" Source="Images/War_Pictorial_News.wmv" Margin="60,120,200,30" Canvas.Left="-60" Canvas.Top="-120" Stretch="Fill" Height="150" Width="200" Panel.ZIndex="10" Volume="0" LoadedBehavior="Manual" MediaEnded="thirdChannel_MediaEnded"></MediaElement>
             </Canvas>
         </Border>
-        <Label Content="WARTIME MEMORIES" Height="84" FontSize="48" FontFamily="Century"
-               HorizontalAlignment="Center" Margin="289,401,275,0" Name="title" VerticalAlignment="Top" Width="564" Foreground="#FF9C4A0E" FontWeight="ExtraBold" />
+        <Label Content="WARTIME" Height="84" FontSize="48" FontFamily="Century"
+               HorizontalAlignment="Center" Margin="444,253,405,0" Name="title" VerticalAlignment="Top" Width="295" Foreground="#FF9C4A0E" FontWeight="ExtraBold" />
 
         <TextBlock Name="AnimatedText" Margin="64,481,69,110" FontSize="32" FontWeight="Bold" Foreground="#FF9C4A0E" TextAlignment="Center" 
                    FontFamily="Century" TextWrapping="Wrap"> Read memories in the words of the veterans themselves
             
               <!-- Animates the text block's opacity. -->
-              <TextBlock.Triggers>
+            <TextBlock.Triggers>
                 <EventTrigger RoutedEvent="TextBlock.Loaded">
-                  <BeginStoryboard>
-                    <Storyboard>
-                      <DoubleAnimation
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation
                         Storyboard.TargetName="AnimatedText"
                         Storyboard.TargetProperty="(TextBlock.Opacity)"
                         From="1.0" To="0.0" Duration="0:0:5" 
                         AutoReverse="True" RepeatBehavior="Forever" />
-                    </Storyboard>
-                      
-                  </BeginStoryboard>
-                </EventTrigger>
-              </TextBlock.Triggers>
-                    </TextBlock>
+                        </Storyboard>
 
-        
+                    </BeginStoryboard>
+                </EventTrigger>
+            </TextBlock.Triggers>
+        </TextBlock>
+        <Label Content="MEMORIES" Height="84" FontSize="48" FontFamily="Century"
+        	HorizontalAlignment="Center" Margin="426,311,391,0" x:Name="title_Copy" VerticalAlignment="Top" Width="327" Foreground="#FF9C4A0E" FontWeight="ExtraBold" />
+
+
         <!--end window code-->
     </Grid>
 </Window>
