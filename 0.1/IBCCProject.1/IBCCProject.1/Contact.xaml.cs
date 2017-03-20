@@ -28,6 +28,7 @@ namespace IBCCProject._1
         public Contact()
         {
             InitializeComponent();
+            _currentTextbox = nameText as TextBox;
         }
         
 

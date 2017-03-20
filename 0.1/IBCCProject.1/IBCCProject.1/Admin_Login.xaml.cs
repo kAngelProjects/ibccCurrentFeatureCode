@@ -18,9 +18,12 @@ namespace IBCCProject._1
     /// </summary>
     public partial class Admin_Login : Window
     {
+        private TextBox _currentTextbox;
+
         public Admin_Login()
         {
             InitializeComponent();
+            _currentTextbox = passwordBox as TextBox;
         }
 
         private void submitButton_Click(object sender, RoutedEventArgs e)

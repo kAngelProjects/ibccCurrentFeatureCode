@@ -25,6 +25,7 @@ namespace IBCCProject._1
         public Memory_Form()
         {
             InitializeComponent();
+            _currentTextbox = titleText as TextBox;
         }
 
         private void qButton_Click(object sender, RoutedEventArgs e)

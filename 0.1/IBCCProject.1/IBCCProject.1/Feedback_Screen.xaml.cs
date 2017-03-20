@@ -24,6 +24,7 @@ namespace IBCCProject._1
         public Feedback_Screen()
         {
             InitializeComponent();
+            _currentTextbox = feedbackBox as TextBox;
         }
 
         private void TextBoxLostKeyboardFocus(object sender, KeyboardFocusChangedEventArgs e)
