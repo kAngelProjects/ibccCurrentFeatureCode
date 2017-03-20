@@ -49,7 +49,7 @@ namespace IBCCProject._1
                 {
                     memoryTitle.Text = reader.GetString("memory_title");
                     memoryContent.Text = reader.GetString("memory_content");
-                    memoryNumber.Content = memoryNumber.Content + reader.GetString("memory_id");
+                    //memoryNumber.Content = memoryNumber.Content + reader.GetString("memory_id");
                     alwaysDisplay = reader.GetInt16("always_display");
                 }
 

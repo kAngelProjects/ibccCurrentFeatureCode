@@ -13,12 +13,12 @@
             </VisualBrush>
         </Grid.Background>
 
-        <Label Content="Back" HorizontalContentAlignment="Center" FontFamily="Century" FontSize="20" Height="34" HorizontalAlignment="Left" Margin="44,74,0,0" Name="label1" VerticalAlignment="Top" Width="170" Foreground="#FF9C4A0E" />
+        <Label Content="Back" HorizontalContentAlignment="Center" FontFamily="Interface Regular" FontSize="20" Height="34" HorizontalAlignment="Left" Margin="44,74,0,0" Name="label1" VerticalAlignment="Top" Width="170" Foreground="#FF9C4A0E" />
         <Button Name="menuButton" VerticalAlignment="Top" HorizontalAlignment="Left" Background="#FF949392" Margin="59,19,0,0" Height="63" Width="138" Click="menuButton_Click">
             <Image Source="/IBCCProject.1;component/Images/arrow_left.png" Width="70" Height="46"/>
         </Button>
 
-        <Label Content="TIMELINE" Height="71" FontSize="48" FontFamily="Century"
+        <Label Content="TIMELINE" Height="71" FontSize="48" FontFamily="Interface Regular"
                HorizontalAlignment="Center" Margin="268,19,240,0" Name="timeline_details_title" VerticalAlignment="Top" Width="270" Foreground="#FF9C4A0E" FontWeight="SemiBold" />
 
         
@@ -27,9 +27,9 @@
         <Image Height="150" HorizontalAlignment="Left" Margin="832,284,0,0" Name="placeholderImage2" Stretch="Fill" VerticalAlignment="Top" Width="200" Source="/IBCCProject.1;component/Images/algerianIndependence.jpg" />
         <Image Height="150" HorizontalAlignment="Left" Margin="44,455,0,0" Name="placeholderImage3" Stretch="Fill" VerticalAlignment="Top" Width="200" Source="/IBCCProject.1;component/Images/alliedOccupation.jpg" />
 
-        <TextBlock Height="150" HorizontalAlignment="Center" Margin="400,117,238,0" Name="factBlock1" Text="Fact Block 1" VerticalAlignment="Top" Width="491" TextAlignment="Center" FontSize="20" TextWrapping="Wrap" FontFamily="Century" Foreground="#FF9C4A0E" />
-        <TextBlock FontSize="20" Height="150" HorizontalAlignment="Center" Margin="44,284,243,0" Name="factBlock2" Text="Fact Block 2" TextAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Width="491" FontFamily="Century" Foreground="#FF9C4A0E" />
-        <TextBlock FontSize="20" Height="150" HorizontalAlignment="Right" Margin="0,455,226,0" Name="factBlock3" Text="Fact Block 3" TextAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Width="491" FontFamily="Century" Foreground="#FF9C4A0E" />
-        <Label Content="SUMMARY TEXT HERE SUMMARY TEXT HERE SUMMARY TEXT" Height="38" HorizontalAlignment="Left" Margin="288,608,0,0" Name="summaryText" VerticalAlignment="Top" Width="640" FontFamily="Century" HorizontalContentAlignment="Center" FontSize="16" Foreground="#FF9C4A0E" />
+        <TextBlock Height="150" HorizontalAlignment="Center" Margin="400,117,238,0" Name="factBlock1" Text="Fact Block 1" VerticalAlignment="Top" Width="491" TextAlignment="Center" FontSize="20" TextWrapping="Wrap" FontFamily="Interface Regular" Foreground="#FF9C4A0E" />
+        <TextBlock FontSize="20" Height="150" HorizontalAlignment="Center" Margin="44,284,243,0" Name="factBlock2" Text="Fact Block 2" TextAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Width="491" FontFamily="Interface Regular" Foreground="#FF9C4A0E" />
+        <TextBlock FontSize="20" Height="150" HorizontalAlignment="Right" Margin="0,455,226,0" Name="factBlock3" Text="Fact Block 3" TextAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Width="491" FontFamily="Interface Regular" Foreground="#FF9C4A0E" />
+        <Label Content="SUMMARY TEXT HERE SUMMARY TEXT HERE SUMMARY TEXT" Height="38" HorizontalAlignment="Left" Margin="288,608,0,0" Name="summaryText" VerticalAlignment="Top" Width="640" FontFamily="Interface Regular" HorizontalContentAlignment="Center" FontSize="16" Foreground="#FF9C4A0E" />
     </Grid>
 </Window>

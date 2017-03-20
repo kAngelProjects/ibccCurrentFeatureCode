@@ -13,13 +13,13 @@
             </VisualBrush>
         </Grid.Background>
 
-        <Label Content="Back" HorizontalContentAlignment="Center" FontFamily="Century" FontSize="20" Height="34" HorizontalAlignment="Left" Margin="44,92,0,0" Name="label1" VerticalAlignment="Top" Width="170" Foreground="#FF9C4A0E" />
+        <Label Content="Back" HorizontalContentAlignment="Center" FontFamily="Interface Regular" FontSize="20" Height="34" HorizontalAlignment="Left" Margin="44,92,0,0" Name="label1" VerticalAlignment="Top" Width="170" Foreground="#FF9C4A0E" />
         <Button Name="menuButton" VerticalAlignment="Top" HorizontalAlignment="Left" Background="#FF949392" Margin="62,28,0,0" Height="63" Width="138" Click="menuButton_Click">
             <Image Source="/IBCCProject.1;component/Images/arrow_left.png" Width="70" Height="46"/>
         </Button>
 
-        <Label Content="TIMELINE" Height="71" FontSize="48" FontFamily="Century"
-               HorizontalAlignment="Center" Margin="398,36,460,0" Name="timeline_title" VerticalAlignment="Top" Width="270" Foreground="#FF9C4A0E" FontWeight="SemiBold" />
+        <Label Content="TIMELINE" Height="71" FontSize="48" FontFamily="Interface Regular"
+               HorizontalAlignment="Center" Margin="432,38,442,0" Name="timeline_title" VerticalAlignment="Top" Width="270" Foreground="#FF9C4A0E" FontWeight="SemiBold" />
         <Rectangle Height="24" HorizontalAlignment="Left" Margin="54,400,0,0" Name="rectangle1" Stroke="Black" VerticalAlignment="Top" Width="1001" Fill="Black" />
         <Rectangle Height="80" HorizontalAlignment="Left" Margin="156,325,0,0" Name="rectangle2" Stroke="Black" VerticalAlignment="Top" Width="10" Fill="Black" />
         
@@ -54,7 +54,7 @@
                 <TextBlock Text="1980s" VerticalAlignment="Center" FontSize="24" />
             </StackPanel>
         </Button>
-        <Label Content="Please choose a time period." Height="38" HorizontalAlignment="Left" Margin="398,114,0,0" Name="label2" VerticalAlignment="Top" FontSize="20" FontFamily="Century" Foreground="#FF9C4A0E" />
-        <Label Content="Have wartime memorabilia? Visit the Contact Screen to see if you could contribute to the Digital Archive." Height="34" HorizontalAlignment="Left" Margin="136,603,0,0" Name="label3" VerticalAlignment="Top" Width="739" FontSize="15" FontFamily="Century" />
+        <Label Content="Please choose a time period." Height="38" HorizontalAlignment="Left" Margin="414,114,0,0" Name="label2" VerticalAlignment="Top" FontSize="20" FontFamily="Interface Regular" Foreground="#FF9C4A0E" />
+        <Label Content="Have wartime memorabilia? Visit the Contact Screen to see if you could contribute to the Digital Archive." Height="34" HorizontalAlignment="Left" Margin="152,607,0,0" Name="label3" VerticalAlignment="Top" Width="739" FontSize="15" FontFamily="Interface Regular" />
     </Grid>
 </Window>

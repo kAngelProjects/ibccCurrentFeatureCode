@@ -31,11 +31,11 @@
                 <MediaElement x:Name="thirdChannel" Source="Images/War_Pictorial_News.wmv" Margin="60,120,200,30" Canvas.Left="-60" Canvas.Top="-120" Stretch="Fill" Height="150" Width="200" Panel.ZIndex="10" Volume="0" LoadedBehavior="Manual" MediaEnded="thirdChannel_MediaEnded"></MediaElement>
             </Canvas>
         </Border>
-        <Label Content="WARTIME" Height="84" FontSize="48" FontFamily="Century"
-               HorizontalAlignment="Center" Margin="444,253,405,0" Name="title" VerticalAlignment="Top" Width="295" Foreground="#FF9C4A0E" FontWeight="ExtraBold" />
+        <Label Content="WARTIME" Height="84" FontSize="48" FontFamily="Interface Regular"
+               HorizontalAlignment="Center" Margin="458,263,391,0" Name="title" VerticalAlignment="Top" Width="295" Foreground="#FF9C4A0E" FontWeight="ExtraBold" />
 
         <TextBlock Name="AnimatedText" Margin="64,481,69,110" FontSize="32" FontWeight="Bold" Foreground="#FF9C4A0E" TextAlignment="Center" 
-                   FontFamily="Century" TextWrapping="Wrap"> Read memories in the words of the veterans themselves
+                   FontFamily="Interface Regular" TextWrapping="Wrap"> Read memories in the words of the veterans themselves
             
               <!-- Animates the text block's opacity. -->
             <TextBlock.Triggers>
@@ -53,8 +53,8 @@
                 </EventTrigger>
             </TextBlock.Triggers>
         </TextBlock>
-        <Label Content="MEMORIES" Height="84" FontSize="48" FontFamily="Century"
-        	HorizontalAlignment="Center" Margin="426,311,391,0" x:Name="title_Copy" VerticalAlignment="Top" Width="327" Foreground="#FF9C4A0E" FontWeight="ExtraBold" />
+        <Label Content="MEMORIES" Height="84" FontSize="48" FontFamily="Interface Regular"
+        	HorizontalAlignment="Center" Margin="444,311,423,0" x:Name="title_Copy" VerticalAlignment="Top" Width="277" Foreground="#FF9C4A0E" FontWeight="ExtraBold" />
 
 
         <!--end window code-->
