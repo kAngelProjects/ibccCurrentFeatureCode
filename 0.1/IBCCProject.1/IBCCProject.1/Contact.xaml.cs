@@ -397,7 +397,9 @@ namespace IBCCProject._1
                 missingContact = true;
             }
 
-            bool letterResult = nameValue.All(Char.IsLetter);
+            //remove whitespace from testing string as whitespace is a valid character
+            string trimmed = nameValue.Replace(" ", string.Empty);
+            bool letterResult = trimmed.All(Char.IsLetter);
 
             if (letterResult == false)
             {

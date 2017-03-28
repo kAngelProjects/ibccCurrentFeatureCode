@@ -238,10 +238,10 @@ namespace IBCCProject._1
                     string chinaEightyOneString = "1980-83: Improvement of China's food production and reduction of rural poverty. Population surpasses 1 billion people. Debates happen between the 'Reds', who promote ideological commitment and the 'Technocrats', who wanted reform.";
                     factBlock1.Text = chinaEightyOneString;
 
-                    string chinaEightyThreeString = "1983-86: Fourteen cities are opened to foreign investment as part of an 'open-door policy'. Thousands of students demonstrate for greater intellectual freedom. New regulations create labour camps for 're-education' purposes.";
+                    string chinaEightyThreeString = "1983-86: Fourteen cities are opened to foreign investment as part of an 'open-door policy'. Thousands of students demonstrate for intellectual reforms. New regulations create labour camps for 're-education' purposes.";
                     factBlock2.Text = chinaEightyThreeString;
 
-                    string chinaEightySixString = "1986-89: KFC and other Western-style food comes to China. General Secretary Hu Yaobang is forced to resign over accusations of being 'too liberal'. Tiananmen Square demonstrations are suppressed, leading to the murder of 200 people.";
+                    string chinaEightySixString = "1986-89: KFC and other Western-style food comes to China. General Secretary Hu Yaobang is forced to resign over accusations of being 'too liberal'. Tiananmen Square demonstrations are suppressed, and 200 people are killed.";
                     factBlock3.Text = chinaEightySixString;
 
                     summaryText.Content = "Improvement of living conditions ~ Improved communications, harder crackdowns";
@@ -602,7 +602,7 @@ namespace IBCCProject._1
                 //lord of the rings publication date
                 case "forties":
                     factBlock1.Text = "1945: An uprising in Algeria led to the deaths of thousands of people. Pierre Laval, one of the leaders of the pro-Nazi Vichy government, was arrested and later executed. Women in France were allowed to vote.";
-                    factBlock2.Text = "1946-7: Syria gains independence from France. Frech doctor Petiot, who murdered at least 26 Jewish people, was beheaded. France declares martial law in Algeria. France and Britain sign an alliance treaty. War hero Leclerc dies.";
+                    factBlock2.Text = "1946-7: Syria gains independence from France. Frech doctor Petiot, who killed at least 26 Jewish people, was beheaded. France declares martial law in Algeria. France and Britain sign an alliance treaty. Leclerc, who was considered a war hero, dies.";
                     factBlock3.Text = "1948-9: France signs the NATO pact. French priest Abbe Pierre began taking in the homeless, and soon his project would expand to include other countries. Presenting cowardice in a favourable light was banned from children's books.";
 
                     summaryText.Content = "Collapse of the Vichy Government ~ Alliances with Allied powers";
@@ -614,7 +614,7 @@ namespace IBCCProject._1
 
                     break;
                 case "fifties":
-                    factBlock1.Text = "1950-3: French forces fight the Viet Minh. Massive arrests of communists. The Algerian Liberation Front beging guerrilla warfare against France. The National Secular Action Committee is established to support public education.";
+                    factBlock1.Text = "1950-3: French forces fight the Viet Minh. Massive arrests of communists. Algerian forces beging guerrilla warfare against France. The National Secular Action Committee is established to support public education.";
                     factBlock2.Text = "1954-6: Vietnam is divided into a communist North and US-supporting south and French forces withdraw. France sends soldiers to Algeria. French generals approve the torture of Algerian fighters. Tunisia gains independence.";
                     factBlock3.Text = "1957-9: French troops took control of Algiers. France leaves Morocco. Chad becomes an autonomous nation within French rule. With French support, Senegal and Sudan form the Republic of Mali.";
 
@@ -693,7 +693,7 @@ namespace IBCCProject._1
 
                     break;
                 case "fifties":
-                    factBlock1.Text = "1950-3: China and Russia sign a mutual defence treaty. Soviet Union shoots down a US spy plane. The Soviet Union proposes a cease fire in the Korean War. Leaders of the alleged Jewish 'Doctor's Plot' to murder Soviet leadership. Stalin dies aged 73.";
+                    factBlock1.Text = "1950-3: China and Russia sign a mutual defence treaty. Soviet Union shoots down a US spy plane. The Soviet Union proposes a cease fire in the Korean War. Leaders of the alleged Jewish 'Doctor's Plot' to assassinate Soviet leadership. Stalin dies aged 73.";
                     factBlock2.Text = "1954-6: The Crimea was given to Ukraine by Khrushchev. First atomic plant created near Moscow. The Cheka recreated as the KGB. Khrushchev denounces Stalin. Students protest to desanctify Stalin's memory. Soviet troops are sent to Hungary after an anti-Stalinist revolt.";
                     factBlock3.Text = "1957-9: The space race begins as Russia launches the first man-made satellite, Sputnik and Luna 2 reaches the moon. Moscow declares a halt on atomic tests and asks other nations to follow suit. Soviet forces arrive in Afganistan.";
 
