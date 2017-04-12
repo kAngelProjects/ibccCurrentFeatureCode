@@ -13,15 +13,68 @@
             </VisualBrush>
         </Grid.Background>
 
-        <Label Content="Return to menu" HorizontalContentAlignment="Center" FontFamily="Interface Regular" FontSize="20" Height="34" HorizontalAlignment="Left" Margin="27,77,0,0" Name="label1" VerticalAlignment="Top" Width="170" />
+        <Label Content="Return" HorizontalContentAlignment="Center" FontFamily="Interface Regular" FontSize="20" Height="34" HorizontalAlignment="Left" Margin="27,77,0,0" Name="label1" VerticalAlignment="Top" Width="170" />
         <Button Name="menuButton" VerticalAlignment="Top" HorizontalAlignment="Left" Background="#FF949392" Margin="44,19,0,0" Height="63" Width="138" Click="menuButton_Click">
             <Image Source="/IBCCProject.1;component/Images/homeIcon.png" Width="70" Height="46"/>
         </Button>
 
         <Label Content="LOGIN" Height="71" FontSize="48" FontFamily="Interface Regular"
-               HorizontalAlignment="Center" Margin="470,34,484,0" Name="feedback_title" VerticalAlignment="Top" Width="190" Foreground="#FF9C4A0E" FontWeight="SemiBold" />
+               HorizontalAlignment="Center" Margin="492,34,484,0" Name="feedback_title" VerticalAlignment="Top" Width="168" Foreground="#FF9C4A0E" FontWeight="SemiBold" />
         <TextBox Height="86" HorizontalAlignment="Left" Margin="295,250,0,0" Name="passwordBox" VerticalAlignment="Top" Width="558" FontSize="20"/>
         <Label Content="Password" Height="41" HorizontalAlignment="Left" Margin="515,172,0,0" Name="passwordLabel" VerticalAlignment="Top" FontSize="20" FontFamily="Interface Regular" Width="103" Foreground="#FF9C4A0E" />
-        <Button Content="Submit" Height="67" HorizontalAlignment="Left" Margin="470,396,0,0" Name="submitButton" VerticalAlignment="Top" Width="189" Click="submitButton_Click" Background="#FF949392" FontFamily="Interface Regular" />
+        <Button Content="Submit" Height="86" HorizontalAlignment="Left" Margin="900,250,0,0" Name="submitButton" VerticalAlignment="Top" Width="189" Click="submitButton_Click" Background="#FF949392" FontFamily="Interface Regular" />
+        <TabControl Margin="27,308,10,35">
+            <TabItem Header="Letters" x:Name="letterTab" Height="45" Width="100">
+                <Grid>
+                    <Button Content="Q" Height="50" HorizontalAlignment="Left" Margin="16,65,0,0" x:Name="qButton" VerticalAlignment="Top" Width="74" Click="qButton_Click" FontFamily="Interface Regular"/>
+                    <Button Content="W" Height="50" HorizontalAlignment="Left" Margin="113,65,0,0" x:Name="wButton" VerticalAlignment="Top" Width="74" Click="wButton_Click" FontFamily="Interface Regular"/>
+                    <Button Content="E" Height="50" HorizontalAlignment="Left" Margin="215,65,0,0" x:Name="eButton" VerticalAlignment="Top" Width="74" Click="eButton_Click" FontFamily="Interface Regular"/>
+                    <Button Content="R" Height="50" HorizontalAlignment="Left" Margin="312,65,0,0" x:Name="rButton" VerticalAlignment="Top" Width="74" Click="rButton_Click" FontFamily="Interface Regular"/>
+                    <Button Content="T" Height="50" HorizontalAlignment="Left" Margin="411,65,0,0" x:Name="tButton" VerticalAlignment="Top" Width="74" Click="tButton_Click" FontFamily="Interface Regular"/>
+                    <Button Content="Y" Height="50" HorizontalAlignment="Left" Margin="505,65,0,0" x:Name="yButton" VerticalAlignment="Top" Width="74" Click="yButton_Click" FontFamily="Interface Regular"/>
+                    <Button Content="U" Height="50" HorizontalAlignment="Left" Margin="600,65,0,0" x:Name="uButton" VerticalAlignment="Top" Width="74" Click="uButton_Click" FontFamily="Interface Regular"/>
+                    <Button Content="I" Height="50" HorizontalAlignment="Left" Margin="697,65,0,0" x:Name="iButton" VerticalAlignment="Top" Width="74" Click="iButton_Click" FontFamily="Interface Regular"/>
+                    <Button Content="O" Height="50" HorizontalAlignment="Left" Margin="794,65,0,0" x:Name="oButton" VerticalAlignment="Top" Width="74" Click="oButton_Click" FontFamily="Interface Regular"/>
+                    <Button Content="P" Height="50" HorizontalAlignment="Left" Margin="892,65,0,0" x:Name="pButton" VerticalAlignment="Top" Width="74" Click="pButton_Click" FontFamily="Interface Regular"/>
+                    <Button Content="A" Height="50" HorizontalAlignment="Left" Margin="115,134,0,0" x:Name="aButton" VerticalAlignment="Top" Width="74" Click="aButton_Click" FontFamily="Interface Regular"/>
+                    <Button Content="S" Height="50" HorizontalAlignment="Left" Margin="214,134,0,0" x:Name="sButton" VerticalAlignment="Top" Width="74" Click="sButton_Click" FontFamily="Interface Regular"/>
+                    <Button Content="D" Height="50" HorizontalAlignment="Left" Margin="315,134,0,0" x:Name="dButton" VerticalAlignment="Top" Width="74" Click="dButton_Click" FontFamily="Interface Regular"/>
+                    <Button Content="F" Height="50" HorizontalAlignment="Left" Margin="412,134,0,0" x:Name="fButton" VerticalAlignment="Top" Width="74" Click="fButton_Click" FontFamily="Interface Regular"/>
+                    <Button Content="G" Height="50" HorizontalAlignment="Left" Margin="510,134,0,0" x:Name="gButton" VerticalAlignment="Top" Width="74" Click="gButton_Click" FontFamily="Interface Regular"/>
+                    <Button Content="H" Height="50" HorizontalAlignment="Left" Margin="604,134,0,0" x:Name="hButton" VerticalAlignment="Top" Width="74" Click="hButton_Click" FontFamily="Interface Regular"/>
+                    <Button Content="J" Height="50" HorizontalAlignment="Left" Margin="699,134,0,0" x:Name="jButton" VerticalAlignment="Top" Width="74" Click="jButton_Click" FontFamily="Interface Regular"/>
+                    <Button Content="K" Height="50" HorizontalAlignment="Left" Margin="796,134,0,0" x:Name="kButton" VerticalAlignment="Top" Width="74" Click="kButton_Click" FontFamily="Interface Regular"/>
+                    <Button Content="L" Height="50" HorizontalAlignment="Left" Margin="892,134,0,0" x:Name="lButton" VerticalAlignment="Top" Width="74" Click="lButton_Click" FontFamily="Interface Regular"/>
+                    <Button Content="Z" Height="50" HorizontalAlignment="Left" Margin="16,210,0,0" x:Name="zButton" VerticalAlignment="Top" Width="74" Click="zButton_Click" FontFamily="Interface Regular"/>
+                    <Button Content="X" Height="50" HorizontalAlignment="Left" Margin="115,210,0,0" x:Name="xButton" VerticalAlignment="Top" Width="74" Click="xButton_Click" FontFamily="Interface Regular"/>
+                    <Button Content="C" Height="50" HorizontalAlignment="Left" Margin="215,210,0,0" x:Name="cButton" VerticalAlignment="Top" Width="74" Click="cButton_Click" FontFamily="Interface Regular"/>
+                    <Button Content="V" Height="50" HorizontalAlignment="Left" Margin="312,210,0,0" x:Name="VButton" VerticalAlignment="Top" Width="74" Click="VButton_Click" FontFamily="Interface Regular"/>
+                    <Button Content="B" Height="50" HorizontalAlignment="Left" Margin="510,210,0,0" x:Name="bButton" VerticalAlignment="Top" Width="74" Click="bButton_Click" FontFamily="Interface Regular"/>
+                    <Button Content="N" Height="50" HorizontalAlignment="Left" Margin="604,210,0,0" x:Name="nButton" VerticalAlignment="Top" Width="74" Click="nButton_Click" FontFamily="Interface Regular"/>
+                    <Button Content="M" Height="50" HorizontalAlignment="Right" Margin="0,210,316,0" x:Name="mButton" VerticalAlignment="Top" Width="74" Click="mButton_Click" FontFamily="Interface Regular"/>
+                    <Viewbox Margin="-165,143,834,95">
+                        <CheckBox x:Name="capsLock" Content="Caps"/>
+                    </Viewbox>
+                    <Button Content="Bcksp" Height="50" HorizontalAlignment="Left" Margin="977,6,0,0" x:Name="backspaceButton" VerticalAlignment="Top" Width="109" Click="backspaceButton_Click" FontFamily="Interface Regular"/>
+                    <Button Content="1" Height="50" HorizontalAlignment="Left" Margin="16,6,0,0" x:Name="oneButton" VerticalAlignment="Top" Width="74" Click="oneButton_Click" FontFamily="Interface Regular"/>
+                    <Button Content="2" Height="50" HorizontalAlignment="Left" Margin="115,6,0,0" x:Name="twoButton" VerticalAlignment="Top" Width="74" Click="twoButton_Click" FontFamily="Interface Regular"/>
+                    <Button Content="3" Height="50" HorizontalAlignment="Left" Margin="214,6,0,0" x:Name="threeButton" VerticalAlignment="Top" Width="74" Click="threeButton_Click" FontFamily="Interface Regular"/>
+                    <Button Content="4" Height="50" HorizontalAlignment="Left" Margin="313,6,0,0" x:Name="fourButton" VerticalAlignment="Top" Width="74" Click="fourButton_Click" FontFamily="Interface Regular"/>
+                    <Button Content="5" Height="50" HorizontalAlignment="Left" Margin="412,6,0,0" x:Name="fiveButton" VerticalAlignment="Top" Width="74" Click="fiveButton_Click" FontFamily="Interface Regular"/>
+                    <Button Content="6" Height="50" HorizontalAlignment="Left" Margin="505,6,0,0" x:Name="sixButton" VerticalAlignment="Top" Width="74" Click="sixButton_Click" FontFamily="Interface Regular"/>
+                    <Button Content="0" Height="50" HorizontalAlignment="Left" Margin="893,6,0,0" x:Name="zeroButton" VerticalAlignment="Top" Width="74" Click="zeroButton_Click" FontFamily="Interface Regular"/>
+                    <Button Content="7" Height="50" HorizontalAlignment="Left" Margin="600,6,0,0" x:Name="sevenButton" Click="sevenButton_Click" VerticalAlignment="Top" Width="74" FontFamily="Interface Regular"/>
+                    <Button Content="8" Height="50" HorizontalAlignment="Left" Margin="699,6,0,0" x:Name="eightButton" Click="eightButton_Click" VerticalAlignment="Top" Width="74" FontFamily="Interface Regular"/>
+                    <Button Content="9" Height="50" HorizontalAlignment="Left" Margin="796,6,0,0" x:Name="nineButton" Click="nineButton_Click" VerticalAlignment="Top" Width="74" FontFamily="Interface Regular"/>
+                    <Button Content="SPACE" FontFamily="Interface Regular" Margin="412,210,594,15" x:Name="spaceButton" Click="spaceButton_Click"/>
+                    <Button Content="." Height="50" HorizontalAlignment="Left" Margin="896,210,0,0" x:Name="dotButton" VerticalAlignment="Top" Width="74" Click="dotButton_Click" FontFamily="Interface Regular"/>
+                    <Button Content="," Height="50" HorizontalAlignment="Left" Margin="796,210,0,0" x:Name="commaButton" Click="commaButton_Click" VerticalAlignment="Top" Width="74" FontFamily="Interface Regular"/>
+                    <Button Content="?" Height="50" HorizontalAlignment="Left" Margin="993,210,0,0" x:Name="questionButton" Click="questionMarkButton_Click" VerticalAlignment="Top" Width="74" FontFamily="Interface Regular"/>
+                    <Button Content="@" Height="50" HorizontalAlignment="Left" Margin="993,134,0,0" x:Name="atSignButton" Click="atSignButton_Click" VerticalAlignment="Top" Width="74" FontFamily="Interface Regular"/>
+                    <Button Content="!" Height="50" HorizontalAlignment="Left" Margin="993,65,0,0" x:Name="exclamationButton" Click="exclamationMarkButton_Click" VerticalAlignment="Top" Width="74" FontFamily="Interface Regular" />
+                </Grid>
+            </TabItem>
+
+        </TabControl>
     </Grid>
 </Window>

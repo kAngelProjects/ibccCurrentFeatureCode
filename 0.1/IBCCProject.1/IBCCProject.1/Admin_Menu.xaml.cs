@@ -25,8 +25,8 @@ namespace IBCCProject._1
 
         private void menuButton_Click(object sender, RoutedEventArgs e)
         {
-            Menu newMenu = new Menu();
-            newMenu.Show();
+            MainWindow splashScreen = new MainWindow(); //user may not have been to menu yet, go to splash screen to avoid confusion
+            splashScreen.Show();
             this.Close();
         }
 
