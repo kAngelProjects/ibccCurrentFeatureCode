@@ -45,7 +45,7 @@
                     <Label Name="labelPassword" Grid.Column="1">Flag this memory as inappropriate?</Label>
 
                     <WrapPanel Grid.Row="2" Grid.ColumnSpan="2" HorizontalAlignment="Right" Margin="0,15,0,0">
-                        <Button IsDefault="True" Name="confirmFlag" Click="confirmFlag_Click" MinWidth="60" Margin="0,0,10,0">Contiue</Button>
+                        <Button IsDefault="True" Name="confirmFlag" Click="confirmFlag_Click" MinWidth="60" Margin="0,0,10,0">Continue</Button>
                         <Button Name="cancelButton" Click="cancelButton_Click" MinWidth="60">Cancel</Button>
                     </WrapPanel>
                 </Grid>
